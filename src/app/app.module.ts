@@ -10,7 +10,7 @@ import { FormlyTestComponent } from './formly-component/formly-component';
 
 @NgModule({
   imports:      [ BrowserModule, FormsModule, ReactiveFormsModule, FormlyModule.forRoot() ],
-  declarations: [ AppComponent, HelloComponent ],
+  declarations: [ AppComponent, HelloComponent, FormlyTestComponent ],
   bootstrap:    [ AppComponent ]
 })
 export class AppModule { }
