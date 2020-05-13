@@ -1,5 +1,7 @@
 <form [formGroup]="form" (ngSubmit)="submit()">
+  <p>Before Formly</p>
   <formly-form [model]="model" [fields]="fields" [options]="options" [form]="form"></formly-form>
+  <p>After Formly</p>
   <button type="submit" class="btn btn-primary submit-button">Submit</button>
   <button type="button" class="btn btn-default" (click)="options.resetModel()">Reset</button>
 </form>
