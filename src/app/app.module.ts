@@ -6,6 +6,7 @@ import { FormlyModule } from '@ngx-formly/core';
 
 import { AppComponent } from './app.component';
 import { HelloComponent } from './hello.component';
+import { FormlyTestComponent } from './formly-component/formly-component';
 
 @NgModule({
   imports:      [ BrowserModule, FormsModule, ReactiveFormsModule, FormlyModule.forRoot() ],

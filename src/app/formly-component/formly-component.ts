@@ -3,10 +3,10 @@ import { FormGroup } from '@angular/forms';
 import { FormlyFormOptions, FormlyFieldConfig } from '@ngx-formly/core';
 
 @Component({
-  selector: 'formly-app-example',
+  selector: 'formly-test',
   templateUrl: './formly-component.html',
 })
-export class AppComponent {
+export class FormlyTestComponent {
   form = new FormGroup({});
   model: any = {};
   options: FormlyFormOptions = {
